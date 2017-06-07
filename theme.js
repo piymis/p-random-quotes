@@ -14,7 +14,7 @@ $(function () {
 
     function getQuote() {
         $.ajax({
-            url: "http://api.forismatic.com/api/1.0/?",
+            url: "https://api.forismatic.com/api/1.0/?",
             data: "method=getQuote&format=jsonp&lang=en&jsonp=?",
             dataType: "jsonp",
             cache: false
